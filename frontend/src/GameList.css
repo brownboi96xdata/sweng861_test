@@ -1,0 +1,39 @@
+.game-table {
+    width: 95%;
+    border-collapse: collapse;
+  }
+  
+  .game-table th,
+  .game-table td {
+    border: solid;
+    border-color: 1px solid #00000000;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .game-table td:nth-child(5){
+    max-width: 200px; /* adjust the width as needed */
+  }
+  .game-table th {
+    background-color: #D3D3D3;
+  }
+
+  .game-table .deals-table {
+    width: fit-content;
+    border-collapse: collapse;
+    line-height: 10px;
+  }
+
+  .wrap-text {
+    word-wrap: break-word;
+    max-width: 150px; /* Adjust as needed */
+  }
+
+  .id-input{
+    margin-right: 8px;
+  }
+
+  .search-button{
+    margin-right: 10px;
+  }
