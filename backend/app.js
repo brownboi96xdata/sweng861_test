@@ -11,7 +11,6 @@ app.use(express.json());
 app.use(corsMiddleware);
 app.use(errorHandler);
 
-
 connectDB();
 
 // Routes
@@ -34,3 +33,5 @@ if (process.env.SSL_KEY_PATH && process.env.SSL_CERT_PATH) {
     console.log(`Server running on port ${PORT}`);
   });
 }
+
+module.exports = app;
